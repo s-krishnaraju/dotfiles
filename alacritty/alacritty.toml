@@ -12,10 +12,10 @@ y = 0
 [font.offset]
 # This makes nvim and alacritty algined for some reason
 x = 1
-y = 2
+y = 1
 
 [general]
-import = ["~/.config/alacritty/themes/themes/gruvbox_material_medium_dark.toml"]
+import = ["~/dotfiles/alacritty/kanagawa_wave.toml"]
 
 
 [font]
