@@ -15,7 +15,6 @@ rtp:prepend(lazypath)
 require("lazy").setup({
 	{ require("plugins.lsp") },
 	{ require("plugins.neo-tree") },
-	-- { require("plugins.tmux-nav") },
 	{ require("plugins.kanagawa") },
 	{ require("plugins.bufferline") },
 	{ require("plugins.lualine") },
