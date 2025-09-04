@@ -138,9 +138,6 @@ return {
 							event.buf
 						)
 					then
-						if client.name == "clangd" then
-							client.stop(client)
-						end
 						local highlight_augroup = vim.api.nvim_create_augroup("lsp-highlight", { clear = false })
 						vim.api.nvim_create_autocmd({ "CursorHold", "CursorHoldI" }, {
 							buffer = event.buf,
@@ -223,7 +220,7 @@ return {
 			--  - settings (table): Override the default settings passed when initializing the server.
 			--        For example, to see the options for `lua_ls`, you could go to: https://luals.github.io/wiki/settings/
 			local servers = {
-				clangd = {},
+				-- clangd = {},
 				-- gopls = {},
 				-- pyright = {},
 				-- rust_analyzer = {},
