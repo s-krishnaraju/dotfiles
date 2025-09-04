@@ -1,0 +1,11 @@
+unmap d
+unmap u 
+map <c-d> scrollPageDown
+map <c-u> scrollPageUp
+mapkey <c-c> <c-[>
+unmap J
+unmap K
+map H goBack
+map L goForward
+map <c-h> previousTab
+map <c-l> nextTab
