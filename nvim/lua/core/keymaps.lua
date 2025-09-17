@@ -39,7 +39,7 @@ vim.keymap.set("n", "<C-l>", ":bnext<CR>", opts)
 vim.keymap.set("n", "<C-h>", ":bprevious<CR>", opts)
 -- <cmd> w <CR>
 --
-vim.keymap.set("n", "<leader>d", ":bdelete!<CR>", opts) -- close buffer
+vim.keymap.set("n", "<leader>d", ":bp<bar>vsp<bar>bn<bar>bd<CR>", opts) -- close buffer but don't close pane
 vim.keymap.set("n", "<leader>b", "<cmd> enew <CR>", opts) -- new buffer
 
 -- Window management
